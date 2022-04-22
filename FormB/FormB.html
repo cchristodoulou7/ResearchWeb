@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="StylesFB.css">
+</head>
+<body>
+
+
+<div class="wrapper">
+    <div class="title">
+        Registration Form B
+    </div>
+    <div class="form">
+        <div class="field">
+            <label>First Name</label>
+            <input type="text" class="input" >
+        </div>
+
+        <div class="field">
+            <label>Last Name</label>
+            <input type="text" class="input">
+        </div>
+
+        <div class="field">
+            <label>Password</label>
+            <input type="password" class="input" placeholder="Enter Password">
+        </div>
+
+        <div class="field">
+            <label>Confirm Password</label>
+            <input type="password" class="input" placeholder="Same Password">
+        </div>
+
+        <div class="field">
+            <label>Gender</label>
+            <div class="custom_select">
+                <select>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="field">
+            <label>Email Address</label>
+            <input type="text" class="input">
+        </div>
+
+        <div class="field">
+            <label>Phone Number</label>
+            <input type="text" class="input" placeholder="Enter Contact number">
+        </div>
+
+        <div class="field">
+            <label>Address</label>
+            <textarea class="textarea"></textarea>
+        </div>
+
+        <div class="field">
+            <label>Postal Code</label>
+            <input type="text" class="input" placeholder="Enter Postal ">
+        </div>
+
+        <div class="field terms">
+            <label class="check">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <p>Agreed to terms and conditions</p>
+        </div>
+
+        <div class="field">
+            <input type="submit" value="Register" class="btn"
+                   onclick="msg()";>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function msg(){
+        alert("Congats you are done with 60% \n");
+        window.location.href = "../Formc/FormC.html";
+    }
+</script>
+
+<footer>
+    <p>Website - Developer: Consatntina Christodoulou<br>
+        <a href="mailto:CChristodoulou7@uclan.ac.uk">CChristodoulou7@uclan.ac.uk</a></p>
+</footer>
+
+</body>
+</html>

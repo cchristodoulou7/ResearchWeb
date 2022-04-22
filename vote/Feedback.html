@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="\vote\Feedback.css">
+</head>
+<body>
+
+
+<div class="wrapper">
+    <div class="title">
+        Your Feedback
+    </div>
+    <div class="form">
+        <div class="field">
+            <label>Username</label>
+            <input type="text" class="input" placeholder="username">
+        </div>
+
+        <div class="field">
+            <label>Age</label>
+            <input type="text" class="input" placeholder="Enter your lovely age">
+        </div>
+
+        <div class="field">
+            <label>Form A</label>
+            <div class="custom_select">
+                <select>
+                    <option value="">rate...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="field">
+            <label>Form B</label>
+            <div class="custom_select">
+                <select>
+                    <option value="">rate...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="field">
+            <label>Form C</label>
+            <div class="custom_select">
+                <select>
+                    <option value="">rate...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="field">
+            <label>COMMENTS </label>
+            <textarea class="textarea" placeholder="Additional comments"></textarea>
+        </div>
+
+        <div class="field terms">
+            <label class="check">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <p><b>Before pressing submit wait until the feedback is collected.</b></p>
+        </div>
+
+        <div class="field">
+            <input type="submit" value="Submit" class="btn"
+                   onclick="msg()";>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function msg(){
+        alert("Congats you are done \n");
+        window.location.href = "../index.html";
+    }
+</script>
+
+<footer>
+    <p>Website - Developer: Consatntina Christodoulou<br>
+        <a href="mailto:CChristodoulou7@uclan.ac.uk">CChristodoulou7@uclan.ac.uk</a></p>
+</footer>
+</body>
+</html>
